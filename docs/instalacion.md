@@ -25,11 +25,11 @@ Ve a la pestaña Settings de tu repositorio en GitHub.
 
 En el menú lateral izquierdo, haz clic en Pages.
 
-En la sección Build and deployment, asegúrate de que el "Source" esté configurado como Deploy from a branch.
+En la sección Build and deployment, asegúrate de que el "Source" esté configurado como _Deploy from a branch_.
 
 Selecciona la rama `gh-pages` y la carpeta `/(root)`, luego guarda.
 
-Cómo funciona este flujo en la práctica
+## Cómo funciona este flujo en la práctica
 A partir de este momento, tu flujo de trabajo será el siguiente:
 
 Trabajas tus notas de Markdown en local usando VS Code.
