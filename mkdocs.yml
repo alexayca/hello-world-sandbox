@@ -2,6 +2,8 @@ site_name: Prueba de Mis Docs
 site_description: Manual técnico y arquitectónico del sistema.
 site_author: alexannotations
 site_url: https://alexayca.github.io/hello-world-sandbox/
+# Cambiar a 'true' cuando se despliegue en el servidor Apache de RHEL para tener URLs limpias sin .html
+use_directory_urls: false     # Necesario para navegar dando doble clic a los HTML (explorador de archivos)
 
 # Configuración del tema Material
 theme:
