@@ -1,6 +1,9 @@
 # hello-world
 My first repository
 
+En windows, como modo desarrollador activado.
+```git config --global core.symlinks true```
+
 Hello, I am learning about github and software development, I have heard that this tool is useful.
 
 Segundo commit en la rama principal

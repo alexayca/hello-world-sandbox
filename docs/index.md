@@ -25,6 +25,10 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 - [Dentro del repo, fuera de docs, no funciona](../routes/web.php)
 
+En windows, como modo desarrollador activado.
+```git config --global core.symlinks true```
+
+
 * [Ver el diagrama de prueba](test diagrama.html)
 * [Descargar el Catálogo de Abonos](Catálogo de Abonos.pdf)
 
@@ -37,3 +41,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 |Menú y Navegación|Manual (debes programar el HTML/Liquid para el menú)|Automático (se genera solo leyendo tu mkdocs.yml)|
 |Buscador Integrado|No (requiere plugins externos como Lunr.js)|Sí (nativo y automático en temas como Material)|
 |Motor de Plantillas|Liquid ({{ variable }})|Jinja2|
+
