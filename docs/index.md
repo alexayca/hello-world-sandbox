@@ -22,3 +22,5 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 - [instalacion](instalacion.md)
 - [rutas](api/rutas.md)
 
+
+- [Dentro del repo, fuera de docs](../routes/web.php)
