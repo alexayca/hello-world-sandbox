@@ -1,0 +1,30 @@
+name: Publicar Documentación
+
+on:
+  push:
+    branches:
+      - main  # Cambia a 'master' si esa es tu rama principal
+    paths:
+      - 'docs/**'       # Solo ejecuta si hay cambios en los archivos Markdown
+      - 'mkdocs.yml'    # O si cambia la configuración del sitio
+
+permissions:
+  contents: write  # Crítico: permite que la acción escriba el HTML en tu repositorio
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Instalar dependencias
+        run: pip install mkdocs-material
+
+      - name: Compilar y desplegar en GitHub Pages
+        run: mkdocs gh-deploy --force
