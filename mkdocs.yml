@@ -36,3 +36,7 @@ nav:
   - Referencia API:
     - Endpoints y Rutas: api/rutas.md
   
+# 
+plugins:
+  - search:
+      lang: [es, en]

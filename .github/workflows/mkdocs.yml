@@ -29,7 +29,3 @@ jobs:
       - name: Compilar y desplegar en GitHub Pages
         # Este comando compila el HTML y lo sube a una rama oculta llamada gh-pages
         run: mkdocs gh-deploy --force
-
-plugins:
-  - search:
-      lang: [es, en]
