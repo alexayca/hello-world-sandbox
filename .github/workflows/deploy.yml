@@ -3,7 +3,7 @@ name: Publicar Documentación
 on:
   push:
     branches:
-      - main  # Cambia a 'master' si esa es tu rama principal
+      - master  # Cambia a 'main' o 'master' si esa es tu rama principal
     paths:
       - 'docs/**'       # Solo ejecuta si hay cambios en los archivos Markdown
       - 'mkdocs.yml'    # O si cambia la configuración del sitio
